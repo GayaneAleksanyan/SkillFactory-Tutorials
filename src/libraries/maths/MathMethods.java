@@ -1,4 +1,4 @@
-package collections.maths;
+package libraries.maths;
 
 public class MathMethods {
     public static double abs(double num) {
