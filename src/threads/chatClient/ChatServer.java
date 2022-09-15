@@ -11,7 +11,7 @@ public class ChatServer {
     ServerSocket serverSocket;
 
     ChatServer() throws IOException {
-        serverSocket = new ServerSocket(1234);
+            serverSocket = new ServerSocket(1234);
     }
 
     public void run() {
