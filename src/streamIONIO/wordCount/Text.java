@@ -1,4 +1,4 @@
-package streamIO.wordCount;
+package streamIONIO.wordCount;
 
 import java.io.FileNotFoundException;
 

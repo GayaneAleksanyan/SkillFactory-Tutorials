@@ -1,4 +1,4 @@
-package streamIO.receipt;
+package streamIONIO.receipt;
 
 import java.io.FileNotFoundException;
 

@@ -56,6 +56,6 @@ public class Pet implements Comparable<Pet> {
 
     @Override
     public int compareTo(Pet o) {
-        return (int) (this.weight - o.weight);
+        return Double.compare(this.weight, o.weight);
     }
 }

@@ -2,7 +2,7 @@ package collections.pet;
 
 import java.util.*;
 
-public class Main {
+public class SortedPets {
     public static void main(String[] args) {
 
         List<Pet> petList = new ArrayList<>();
@@ -14,11 +14,10 @@ public class Main {
         petList.add(new Pet("Pig", "Hrew", 9.4));
         petList.add(new Pet("Spider", "William", 0.06));
         petList.add(new Pet("Mouse", "Lu", 0.1));
-
         System.out.println(petList);
 
         System.out.println("\nСортировка по длине клички:");
-        petList.sort(new ComparatorByNameLength());
+        Collections.sort(petList, new ComparatorByNameLength());
         System.out.println(petList);
 
         Set<Pet> petSet = new TreeSet<>(petList);
@@ -26,4 +25,3 @@ public class Main {
         System.out.println(petSet);
     }
 }
-

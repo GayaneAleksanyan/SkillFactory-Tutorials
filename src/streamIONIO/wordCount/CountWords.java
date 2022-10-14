@@ -1,8 +1,7 @@
-package streamIO.wordCount;
+package streamIONIO.wordCount;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class CountWords {

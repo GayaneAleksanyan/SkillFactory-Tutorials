@@ -1,4 +1,4 @@
-package streamIO.inputOutput;
+package streamIONIO.inputOutput;
 
 import java.io.InputStream;
 import java.util.Scanner;
